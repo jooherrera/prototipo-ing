@@ -80,7 +80,6 @@ function mostrarModalEncuesta(paciente, atencion) {
                 const questionLabel = document.querySelector(`p#${name}`);
                 const questionText = questionLabel ? questionLabel.textContent : "Pregunta no encontrada";
                 results += `<li><strong>${questionText}</strong>: ${value}</li>`;
-                // console.log(name.replace('q',''))
                 encuesta.puntuarPregunta(value, name.replace('q',''))
             }
         }
@@ -91,7 +90,6 @@ function mostrarModalEncuesta(paciente, atencion) {
         formulario.style.display = "none";
         resultado.style.display = "block";
 
-        console.log(encuesta)
         // Marcar el centro como encuestado
         paciente.responderEncuenta(atencion.getIdentificardor())
         enviarRespuesta(paciente)
@@ -109,8 +107,6 @@ function mostrarModalEncuesta(paciente, atencion) {
             resultado.style.display = "none";
             errorMessage.style.display = "block";
         } else {
-
-            // const encuenta = await getEncuesta()
             cargarPreguentas(await getEncuesta())
             formulario.style.display = "block";
             resultado.style.display = "none";
@@ -147,7 +143,6 @@ function cargarPreguentas(encuesta){
     contenedorDePreguntas.innerHTML = '';
 
     const pregustas = encuesta.getPreguntas()
-    console.log(pregustas)
 
     pregustas.forEach(({id, pregunta}) =>{
         const questionDiv = document.createElement('div');
@@ -169,10 +164,9 @@ function cargarPreguentas(encuesta){
             radioInput.id = `q${id}-${i}`;
             radioInput.name = `q${id}`;
             radioInput.value = i;
+            radioInput.required = true
             // if (i === 1) radioInput.required = true; // Solo el primer radio es obligatorio
-            if(i === 1){
-                radioInput.checked = true
-            }
+
             const radioLabel = document.createElement('label');
             radioLabel.setAttribute('for', `q${id}-${i}`);
             radioLabel.innerText = i;
