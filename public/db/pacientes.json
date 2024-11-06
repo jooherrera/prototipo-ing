@@ -1,0 +1,111 @@
+[
+  {
+    "id": 1,
+    "nombre": "Marcos",
+    "apellido": "Gómez",
+    "dni": "12345678",
+    "mail": "marcos@example.com",
+    "telefono": "+54 11 2345-6789",
+    "avatar": "https://cdn-icons-png.flaticon.com/512/6596/6596121.png",
+    "direccion": "Calle Falsa 123, San Miguel, Buenos Aires",
+    "ultimaConexion": "",
+    "atenciones": [
+      {
+        "id": "A001",
+        "fechaVisita": "2024-09-22",
+        "centroDeSalud": {
+          "id": "001",
+          "nombre": "Hospital Larcade",
+          "direccion": "Av. Presidente Perón 2315, San Miguel, Buenos Aires",
+          "coordenada": {
+            "latitud": -34.53613141456351,
+            "longitud": -58.7205511186567
+          },
+          "servicios": [
+            "Medicina General",
+            "Pediatría",
+            "Vacunación",
+            "Ginecología"
+          ],
+          "zona": {
+            "id": 1,
+            "nombre": "San Miguel"
+          }
+        },
+        "feedback": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "nombre": "Laura",
+    "apellido": "García",
+    "dni": "87654321",
+    "mail": "laura@example.com",
+    "telefono": "+54 11 9876-5432",
+    "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzQ88-IrQXtqH6pchj4vJNF-eB3Jf-zUfexw&s",
+    "direccion": "Av. Principal 456, San Miguel, Buenos Aires",
+    "ultimaConexion": "",
+    "atenciones": [
+      {
+        "id": "A002",
+        "fechaVisita": "2024-09-25",
+        "centroDeSalud": {
+          "id": "002",
+          "nombre": "Centro de Salud Barrio Mitre",
+          "direccion": "Av. Balbín 3100, San Miguel, Buenos Aires",
+          "coordenada": {
+            "latitud": -34.570643,
+            "longitud": -58.737320
+          },
+          "servicios": [
+            "Medicina General",
+            "Vacunación",
+            "Odontología"
+          ],
+          "zona": {
+            "id": 1,
+            "nombre": "San Miguel"
+          }
+        },
+        "feedback": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "nombre": "Gabriel",
+    "apellido": "López",
+    "dni": "23456789",
+    "mail": "gabriel.lopez@example.com",
+    "telefono": "+54 11 8888-9999",
+    "avatar": "https://img.freepik.com/psd-premium/retrato-sonriente-hombre-dibujos-animados-3d-aislado-sobre-fondo-transparente-png-psd_888962-1570.jpg",
+    "direccion": "Calle Libertad 789, Malvinas Argentinas, Buenos Aires",
+    "ultimaConexion": "",
+    "atenciones": [
+      {
+        "id": "A016",
+        "fechaVisita": "2024-10-05",
+        "centroDeSalud": {
+          "id": "003",
+          "nombre": "Hospital de Trauma y Emergencias",
+          "direccion": "Ruta 8 y Av. Olivos, Malvinas Argentinas, Buenos Aires",
+          "coordenada": {
+            "latitud": -34.495757,
+            "longitud": -58.709135
+          },
+          "servicios": [
+            "Traumatología",
+            "Emergencias",
+            "Diagnóstico por Imágenes"
+          ],
+          "zona": {
+            "id": 2,
+            "nombre": "Malvinas Argentinas"
+          }
+        },
+        "feedback": false
+      }
+    ]
+  }
+]

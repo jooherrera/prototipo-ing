@@ -1,0 +1,401 @@
+[
+    {
+        "id": "001",
+        "nombre": "Hospital Larcade",
+        "direccion": "Av. Presidente Perón 2315, San Miguel, Buenos Aires",
+        "coordenada": {
+            "latitud": -34.53613141456351,
+            "longitud": -58.7205511186567
+        },
+        "servicios": [
+            "Medicina General",
+            "Pediatría",
+            "Vacunación",
+            "Ginecología"
+        ],
+        "atenciones": [
+            {
+                "id": "A001",
+                "fechaVisita": "2024-09-22",
+                "paciente": {
+                    "nombre": "Ana",
+                    "apellido": "Pérez",
+                    "mail": "ana.perez@gmail.com"
+                },
+                "feedback": false
+            },
+            {
+                "id": "A002",
+                "fechaVisita": "2024-09-23",
+                "paciente": {
+                    "nombre": "Carlos",
+                    "apellido": "García",
+                    "mail": "carlos.garcia@gmail.com"
+                },
+                "feedback": true
+            },
+            {
+                "id": "A003",
+                "fechaVisita": "2024-09-24",
+                "paciente": {
+                    "nombre": "Lucía",
+                    "apellido": "Martínez",
+                    "mail": "lucia.martinez@gmail.com"
+                },
+                "feedback": false
+            },
+            {
+                "id": "A004",
+                "fechaVisita": "2024-09-25",
+                "paciente": {
+                    "nombre": "Miguel",
+                    "apellido": "Fernández",
+                    "mail": "miguel.fernandez@gmail.com"
+                },
+                "feedback": true
+            },
+            {
+                "id": "A005",
+                "fechaVisita": "2024-09-26",
+                "paciente": {
+                    "nombre": "Sofía",
+                    "apellido": "López",
+                    "mail": "sofia.lopez@gmail.com"
+                },
+                "feedback": false
+            },
+            {
+                "id": "A006",
+                "fechaVisita": "2024-09-27",
+                "paciente": {
+                    "nombre": "Diego",
+                    "apellido": "Rodríguez",
+                    "mail": "diego.rodriguez@gmail.com"
+                },
+                "feedback": true
+            },
+            {
+                "id": "A007",
+                "fechaVisita": "2024-09-28",
+                "paciente": {
+                    "nombre": "Elena",
+                    "apellido": "Gómez",
+                    "mail": "elena.gomez@gmail.com"
+                },
+                "feedback": false
+            },
+            {
+                "id": "A008",
+                "fechaVisita": "2024-09-29",
+                "paciente": {
+                    "nombre": "Luis",
+                    "apellido": "Díaz",
+                    "mail": "luis.diaz@gmail.com"
+                },
+                "feedback": true
+            },
+            {
+                "id": "A009",
+                "fechaVisita": "2024-09-30",
+                "paciente": {
+                    "nombre": "Marta",
+                    "apellido": "Moreno",
+                    "mail": "marta.moreno@gmail.com"
+                },
+                "feedback": false
+            },
+            {
+                "id": "A010",
+                "fechaVisita": "2024-10-01",
+                "paciente": {
+                    "nombre": "Pablo",
+                    "apellido": "Hernández",
+                    "mail": "pablo.hernandez@gmail.com"
+                },
+                "feedback": true
+            },
+            {
+                "id": "A011",
+                "fechaVisita": "2024-10-02",
+                "paciente": {
+                    "nombre": "Laura",
+                    "apellido": "Jiménez",
+                    "mail": "laura.jimenez@gmail.com"
+                },
+                "feedback": false
+            },
+            {
+                "id": "A012",
+                "fechaVisita": "2024-10-03",
+                "paciente": {
+                    "nombre": "Juan",
+                    "apellido": "Ruiz",
+                    "mail": "juan.ruiz@gmail.com"
+                },
+                "feedback": true
+            },
+            {
+                "id": "A013",
+                "fechaVisita": "2024-10-04",
+                "paciente": {
+                    "nombre": "Carmen",
+                    "apellido": "Muñoz",
+                    "mail": "carmen.munoz@gmail.com"
+                },
+                "feedback": false
+            },
+            {
+                "id": "A014",
+                "fechaVisita": "2024-10-05",
+                "paciente": {
+                    "nombre": "José",
+                    "apellido": "Romero",
+                    "mail": "jose.romero@gmail.com"
+                },
+                "feedback": true
+            },
+            {
+                "id": "A015",
+                "fechaVisita": "2024-10-06",
+                "paciente": {
+                    "nombre": "María",
+                    "apellido": "Torres",
+                    "mail": "maria.torres@gmail.com"
+                },
+                "feedback": false
+            },
+            {
+                "id": "A016",
+                "fechaVisita": "2024-10-07",
+                "paciente": {
+                    "nombre": "Pedro",
+                    "apellido": "Vázquez",
+                    "mail": "pedro.vazquez@gmail.com"
+                },
+                "feedback": true
+            },
+            {
+                "id": "A017",
+                "fechaVisita": "2024-10-08",
+                "paciente": {
+                    "nombre": "Clara",
+                    "apellido": "Castro",
+                    "mail": "clara.castro@gmail.com"
+                },
+                "feedback": false
+            },
+            {
+                "id": "A018",
+                "fechaVisita": "2024-10-09",
+                "paciente": {
+                    "nombre": "Raúl",
+                    "apellido": "Suárez",
+                    "mail": "raul.suarez@gmail.com"
+                },
+                "feedback": true
+            },
+            {
+                "id": "A019",
+                "fechaVisita": "2024-10-10",
+                "paciente": {
+                    "nombre": "Teresa",
+                    "apellido": "Ortega",
+                    "mail": "teresa.ortega@gmail.com"
+                },
+                "feedback": false
+            },
+            {
+                "id": "A020",
+                "fechaVisita": "2024-10-11",
+                "paciente": {
+                    "nombre": "Rafael",
+                    "apellido": "Ramos",
+                    "mail": "rafael.ramos@gmail.com"
+                },
+                "feedback": true
+            }
+        ]
+    },
+    {
+        "id": "002",
+        "nombre": "Centro de Salud Barrio Mitre",
+        "direccion": "Av. Balbín 3100, San Miguel, Buenos Aires",
+        "coordenada": {
+            "latitud": -34.570643,
+            "longitud": -58.737320
+        },
+        "servicios": [
+            "Medicina General",
+            "Vacunación",
+            "Odontología"
+        ],
+        "atenciones": [
+            {
+                "id": "A021",
+                "fechaVisita": "2024-10-12",
+                "paciente": {
+                    "nombre": "Andrea",
+                    "apellido": "Silva",
+                    "mail": "andrea.silva@gmail.com"
+                },
+                "feedback": false
+            },
+            {
+                "id": "A022",
+                "fechaVisita": "2024-10-13",
+                "paciente": {
+                    "nombre": "Fernando",
+                    "apellido": "Molina",
+                    "mail": "fernando.molina@gmail.com"
+                },
+                "feedback": false
+            },
+            {
+                "id": "A023",
+                "fechaVisita": "2024-10-14",
+                "paciente": {
+                    "nombre": "Luciana",
+                    "apellido": "Ríos",
+                    "mail": "luciana.rios@gmail.com"
+                },
+                "feedback": true
+            },
+            {
+                "id": "A024",
+                "fechaVisita": "2024-10-15",
+                "paciente": {
+                    "nombre": "Javier",
+                    "apellido": "Ortiz",
+                    "mail": "javier.ortiz@gmail.com"
+                },
+                "feedback": false
+            },
+            {
+                "id": "A025",
+                "fechaVisita": "2024-10-16",
+                "paciente": {
+                    "nombre": "Patricia",
+                    "apellido": "Guzmán",
+                    "mail": "patricia.guzman@gmail.com"
+                },
+                "feedback": true
+            },
+            {
+                "id": "A026",
+                "fechaVisita": "2024-10-17",
+                "paciente": {
+                    "nombre": "Esteban",
+                    "apellido": "Navarro",
+                    "mail": "esteban.navarro@gmail.com"
+                },
+                "feedback": false
+            },
+            {
+                "id": "A027",
+                "fechaVisita": "2024-10-18",
+                "paciente": {
+                    "nombre": "Mónica",
+                    "apellido": "Reyes",
+                    "mail": "monica.reyes@gmail.com"
+                },
+                "feedback": false
+            },
+            {
+                "id": "A028",
+                "fechaVisita": "2024-10-19",
+                "paciente": {
+                    "nombre": "Ricardo",
+                    "apellido": "Peña",
+                    "mail": "ricardo.pena@gmail.com"
+                },
+                "feedback": true
+            },
+            {
+                "id": "A029",
+                "fechaVisita": "2024-10-20",
+                "paciente": {
+                    "nombre": "Beatriz",
+                    "apellido": "Vega",
+                    "mail": "beatriz.vega@gmail.com"
+                },
+                "feedback": false
+            },
+            {
+                "id": "A030",
+                "fechaVisita": "2024-10-21",
+                "paciente": {
+                    "nombre": "Alberto",
+                    "apellido": "Cortés",
+                    "mail": "alberto.cortes@gmail.com"
+                },
+                "feedback": false
+            }
+        ]
+    },
+    {
+        "id": "003",
+        "nombre": "Hospital de Trauma y Emergencias",
+        "direccion": "Ruta 8 y Av. Olivos, Malvinas Argentinas, Buenos Aires",
+        "coordenada": {
+            "latitud": -34.495757,
+            "longitud": -58.709135
+        },
+        "servicios": [
+            "Traumatología",
+            "Emergencias",
+            "Diagnóstico por Imágenes"
+        ],
+        "atenciones": [
+            {
+                "id": "A031",
+                "fechaVisita": "2024-10-22",
+                "paciente": {
+                    "nombre": "Gabriela",
+                    "apellido": "Román",
+                    "mail": "gabriela.roman@gmail.com"
+                },
+                "feedback": false
+            },
+            {
+                "id": "A032",
+                "fechaVisita": "2024-10-23",
+                "paciente": {
+                    "nombre": "Hugo",
+                    "apellido": "Blanco",
+                    "mail": "hugo.blanco@gmail.com"
+                },
+                "feedback": false
+            },
+            {
+                "id": "A033",
+                "fechaVisita": "2024-10-24",
+                "paciente": {
+                    "nombre": "Isabel",
+                    "apellido": "Méndez",
+                    "mail": "isabel.mendez@gmail.com"
+                },
+                "feedback": false
+            },
+            {
+                "id": "A034",
+                "fechaVisita": "2024-10-25",
+                "paciente": {
+                    "nombre": "Jorge",
+                    "apellido": "Luna",
+                    "mail": "jorge.luna@gmail.com"
+                },
+                "feedback": false
+            },
+            {
+                "id": "A035",
+                "fechaVisita": "2024-10-26",
+                "paciente": {
+                    "nombre": "Verónica",
+                    "apellido": "Campos",
+                    "mail": "veronica.campos@gmail.com"
+                },
+                "feedback": false
+            }
+        ]
+    }
+]

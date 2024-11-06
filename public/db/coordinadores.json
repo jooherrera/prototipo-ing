@@ -1,0 +1,81 @@
+[
+    {
+        "id": 1,
+        "nombre": "Carlos",
+        "apellido": "Pérez",
+        "dni": "37284948",
+        "mail": "carlos.perez@example.com",
+        "telefono": "+54 11 1234-5678",
+        "avatar": "https://static.vecteezy.com/system/resources/thumbnails/028/238/588/small/old-man-teacher-face-3d-profession-avatars-free-png.png",
+        "legajo": "00123",
+        "direccion": "Calle falsa 123",
+        "ultimaConexion": "2024-09-20T14:20:00Z",
+        "zona": {
+            "id": 1,
+            "nombre": "San Miguel",
+            "centrosDeSalud": [
+                {
+                    "id": "001",
+                    "nombre": "Hospital Larcade",
+                    "direccion": "Av. Presidente Perón 2315, San Miguel, Buenos Aires",
+                    "coordenada": {
+                        "latitud": -34.53613141456351,
+                        "longitud": -58.7205511186567
+                    },
+                    "servicios": [
+                        "Medicina General",
+                        "Pediatría",
+                        "Vacunación",
+                        "Ginecología"
+                    ]
+                },
+                {
+                    "id": "002",
+                    "nombre": "Centro de Salud Barrio Mitre",
+                    "direccion": "Av. Balbín 3100, San Miguel, Buenos Aires",
+                    "coordenada": {
+                        "latitud": -34.570643,
+                        "longitud": -58.737320
+                    },
+                    "servicios": [
+                        "Medicina General",
+                        "Vacunación",
+                        "Odontología"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "id": 2,
+        "nombre": "María",
+        "apellido": "López",
+        "dni": "34567890",
+        "mail": "maria.lopez@example.com",
+        "telefono": "+54 11 8765-4321",
+        "avatar": "https://thumbs.dreamstime.com/b/d-icon-avatar-business-woman-illustration-smiling-happy-girl-cartoon-close-up-portrait-standing-teenager-isolated-277029066.jpg",
+        "legajo": "00124",
+        "direccion": "Calle falsa 159523",
+        "ultimaConexion": "2024-09-18T11:00:00Z",
+        "zona": {
+            "id": 2,
+            "nombre": "Malvinas Argentinas",
+            "centrosDeSalud": [
+                {
+                    "id": "003",
+                    "nombre": "Hospital de Trauma y Emergencias",
+                    "direccion": "Ruta 8 y Av. Olivos, Malvinas Argentinas, Buenos Aires",
+                    "coordenada": {
+                        "latitud": -34.495757,
+                        "longitud": -58.709135
+                    },
+                    "servicios": [
+                        "Traumatología",
+                        "Emergencias",
+                        "Diagnóstico por Imágenes"
+                    ]
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "pregunta": "Tiempo de espera para obtener una cita"
+  },
+  {
+    "id": 2,
+    "pregunta": "Puntualidad en la atención"
+  },
+  {
+    "id": 3,
+    "pregunta": "Amabilidad del personal de recepción"
+  },
+  {
+    "id": 4,
+    "pregunta": "Profesionalidad del personal médico"
+  },
+  {
+    "id": 5,
+    "pregunta": "Claridad de la información proporcionada"
+  },
+  {
+    "id": 6,
+    "pregunta": "Limpieza y comodidad de las instalaciones"
+  },
+  {
+    "id": 7,
+    "pregunta": "Disponibilidad de equipos y recursos médicos"
+  },
+  {
+    "id": 8,
+    "pregunta": "Eficacia del tratamiento recibido"
+  },
+  {
+    "id": 9,
+    "pregunta": "Facilidad para programar citas de seguimiento"
+  },
+  {
+    "id": 10,
+    "pregunta": "Satisfacción general con el servicio"
+  }
+]

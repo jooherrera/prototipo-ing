@@ -1,0 +1,85 @@
+/* Estilos del fondo del modal */
+.modal-filtro-fondo {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    z-index: 99999;
+}
+
+/* Estilos del modal */
+.modal-filtro {
+    background-color: white;
+    padding: 20px;
+    width: 600px;
+    max-height: 500px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden;
+    overflow-y: auto; /* Activa el desplazamiento vertical */
+
+
+}
+
+/* Botón para cerrar el modal */
+.modal-filtro-boton-cerrar {
+    background-color: transparent;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+}
+
+/* Estilos del input de búsqueda */
+#busqueda-usuario {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Filtros */
+.modal-filtro-botones {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.modal-filtro-boton {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #eee;
+    cursor: pointer;
+}
+
+/* Tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.modal-filtro-estado.activo {
+    color: green;
+    font-weight: bold;
+}
+
+.modal-filtro-estado.inactivo {
+    color: red;
+    font-weight: bold;
+}

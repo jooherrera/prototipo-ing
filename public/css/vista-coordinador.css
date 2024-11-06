@@ -1,0 +1,50 @@
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 20px 0 20px ;
+}
+
+#seccion-mapa {
+    width: 600px;
+}
+
+#centro-detalle {
+    width: 400px;
+    display: none;
+    flex-direction: column;
+}
+#centro-detalle > h2 {
+    text-align: center;
+}
+
+.centro-detalle-item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.centro-detalle-item > span {
+    width: 200px;
+    text-align: center;
+    align-content: center;
+}
+
+#recordatorio {
+    display: none;
+}
+
+#mensaje {
+    box-sizing: border-box;
+    width: 100%;
+    height: 150px;
+}
+
+#boton-enviar-recordatorio {
+    margin-top: 20px;
+    width: 100%;
+}
+
+#botones-centro {
+    display: flex;
+    justify-content: space-around;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coordinador</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="../css/vista-coordinador.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/mapa.css">
+    <link rel="stylesheet" href="../css/modal-filtro-coordinador.css">
+</head>
+<body>
+<div class="container">
+    <header>
+        <div class="logo-container">
+            <img src="/images.jpeg" alt="Logo de la universidad" class="logo">
+            <span class="app-name">HealthSurvey</span>
+        </div>
+        <div class="user-actions">
+            <p class="user-name">---</p>
+            <img src="" alt="Avatar del usuario" class="avatar">
+            <button class="logout-btn">Cerrar sesión</button>
+        </div>
+    </header>
+
+    <main>
+        <section id="seccion-mapa">
+            <div class="content">
+                <h1>Área de coordinadores</h1>
+                <p>Seleccione el centro de salud en el mapa para hacer un seguimiento.</p>
+                <n3>Zona asignada: <span id="nombre-zona"></span></n3>
+            </div>
+            <div id="mapa"></div>
+        </section>
+        <section id="centro-detalle">
+            <h2 id="nombre-centro"></h2>
+            <div class="centro-detalle-item">
+                <h4>Dirección:</h4>
+                <span id="direccion-centro"></span>
+            </div>
+            <div class="centro-detalle-item">
+                <h4>Encuestas recibidas:</h4>
+                <span id="centro-encuestas"></span>
+            </div>
+            <div id="botones-centro">
+                <button id="boton-seguimiento">Seguimiento de encuestas</button>
+                <button id="boton-recordatorio"> Enviar mail de recordatorio</button>
+            </div>
+
+            <div id="recordatorio">
+                <h3>Recordatorio de encuesta</h3>
+                <p>Enviar recordatorio de encuesta a los pacientes del centro seleccionado.</p>
+                <input id="mensaje" type="text">
+                <button id="boton-enviar-recordatorio">Enviar</button>
+            </div>
+        </section>
+
+
+    </main>
+
+    <div class="modal-filtro-fondo" id="modal-fondo">
+        <!-- Contenido del modal -->
+        <div class="modal-filtro">
+            <button class="modal-filtro-boton-cerrar" id="cerrar-modal-filtro">&times;</button>
+            <h2>Pacientes</h2>
+
+            <!-- Filtros de estado -->
+            <div class="modal-filtro-botones">
+                <button  id="boton-filtrar"  class="modal-filtro-boton">Pendiente</button>
+            </div>
+
+            <!-- Tabla de usuarios -->
+            <table>
+                <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Email</th>
+                    <th>Estado</th>
+                </tr>
+                </thead>
+                <tbody id="tabla-usuarios"></tbody>
+            </table>
+        </div>
+    </div>
+
+</div>
+
+
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+<script type="module" src="../js/vista-coordinador.js"></script>
+</body>
+</html>

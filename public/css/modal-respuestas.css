@@ -1,0 +1,29 @@
+.encuesta-resultado {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+}
+.encuesta-resultado h3 {
+    margin-top: 0;
+}
+.encuesta-resultado ul {
+    list-style-type: none;
+    padding: 0;
+}
+.encuesta-resultado li {
+    margin-bottom: 10px;
+}
+#cerrar-resultados {
+    background-color: #008CBA;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+#cerrar-resultados:hover {
+    background-color: #007B9A;
+}
